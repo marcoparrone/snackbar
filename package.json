@@ -1,0 +1,28 @@
+{
+  "name": "@marcoparrone/snackbar",
+  "version": "1.0.0",
+  "description": "Snackbar material react component.",
+  "main": "src/snackbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoparrone/snackbar.git"
+  },
+  "keywords": [
+    "snackbar",
+    "material",
+    "react"
+  ],
+  "author": "Marco Parrone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcoparrone/snackbar/issues"
+  },
+  "homepage": "https://github.com/marcoparrone/snackbar#readme",
+  "dependencies": {
+    "@material/snackbar": "^9.0.0",
+    "react": "^17.0.1"
+  }
+}

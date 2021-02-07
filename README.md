@@ -25,10 +25,10 @@ For creating a snackbar now you can use the Snackbar react component. It accepts
 Here is an example of a snackbar:
 
 ```js
-<Snackbar id="mustBeNum">{this.state.text['text_snack_mustbenum']}</Snackbar>
+<Snackbar id="mustBeNum">{this.i18n.text['text_snack_mustbenum']}</Snackbar>
 ```
 
-In the above example, this.state.text['text_snack_mustbenum'] contains the localized message to show in the snackbar.
+In the above example, this.i18n.text['text_snack_mustbenum'] contains the localized message to show in the snackbar.
 
 ## Showing a snackbar
 
@@ -56,7 +56,7 @@ class NotesList extends React.Component {
 // ...
   render() {
 // ...
-    <AppWithTopBar refprop={this.notesListRef} lang={this.state.language} appname={this.state.text['text_appname']} /* ... */ >
-      <Snackbar id="mustBeNum">{this.state.text['text_snack_mustbenum']}</Snackbar>
-// ...
+    <AppWithTopBar refprop={this.notesListRef} lang={this.i18n.language} appname={this.i18n.text['text_appname']} /* ... */ >
+      <Snackbar id="mustBeNum">{this.i18n.text['text_snack_mustbenum']}</Snackbar>
+...
 ```
